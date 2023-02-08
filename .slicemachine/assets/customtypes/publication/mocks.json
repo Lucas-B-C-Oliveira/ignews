@@ -1,0 +1,32 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "doubt"
+  },
+  "title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Qui tempor duis ut occaecat quis incididunt consequat est mollit eu do laboris. Deserunt eu sit veniam irure reprehenderit et est adipisicing ipsum in. Laboris Lorem non cupidatat ut sunt."
+        }
+      }
+    ]
+  },
+  "content": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Excepteur irure non minim ut aute sunt. Veniam laboris excepteur tempor cupidatat ex tempor ex ipsum ea velit laborum reprehenderit ut occaecat mollit."
+        }
+      }
+    ]
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": []
+  }
+}

@@ -9,11 +9,15 @@ interface SubscribeButtonProps {
 }
 
 export function SubscribeButton() {
-  const { data } = useSession()
-  const router = useRouter
+  // const { data } = useSession()
+  // const router = useRouter
+
+  const { data: session } = useSession();
+  const router = useRouter();
+
 
   // @ts-ignore
-  const session = data?.session && data.session
+  // const session = data?.session && data.session
 
 
 
@@ -29,8 +33,12 @@ export function SubscribeButton() {
       // @ts-ignore
       router?.push('/posts')
       return
-
     }
+
+    // if (session) {
+    //   router.push("/posts");
+    //   return;
+    // }
 
     try {
       const response = await api.post('/subscribe')
